@@ -26,5 +26,5 @@ BMEN4460-NB2-image_classification_on_MNIST_data
         └── MNIST_CNN.PNG
 ```
 
-## The CNN model implemented in this tutorial (again, the idea comes from [here](https://github.com/floydhub/mnist)).
+### The CNN model implemented in this tutorial (again, the idea comes from [here](https://github.com/floydhub/mnist)).
 <img src="/data/MNIST_CNN.PNG" width="1000px">
