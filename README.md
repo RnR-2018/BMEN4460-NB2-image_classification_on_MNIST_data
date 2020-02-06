@@ -47,7 +47,7 @@ conda activate BMEN4460
 conda install -c anaconda tensorflow pandas seaborn
 ```
 
-#### Step 3. Refresh the jupyter kernel (we didn't believe this is necessary but it seems it is).
+#### Step 3. Refresh the jupyter kernel (we don't think it is necessary but it worth trying if you still cannot use the newly-installed packages in your jupyter lab).
 ```
 python -m ipykernel install --user --name BMEN4460 --display-name "Python3.7 BMEN4460"
 ```
