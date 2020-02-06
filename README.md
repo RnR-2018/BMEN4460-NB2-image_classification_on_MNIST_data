@@ -10,8 +10,9 @@ This repository, [**Image Classification on MNIST Data**](https://github.com/RnR
 On the GCP VM Terminal:
 ```
 cd /home/[username]/
-mkdir Projects # This is only necessary if you have not done this yet
-cd Projects
+mkdir BMEN4460 # This is only necessary if you have not done this yet
+mkdir BMEN4460/MNIST # This is only necessary if you have not done this yet
+cd BMEN4460/MNIST
 git clone https://github.com/RnR-2018/BMEN4460-NB2-image_classification_on_MNIST_data/
 ```
 
