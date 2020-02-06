@@ -34,15 +34,22 @@ If you followed the instructions given in the parent repository and used the Dee
 
 #### Step 1. Grant yourself the write permission over the anaconda directory (only necessary if you have not done this before).
 ```
+sudo su [username]
 cd /opt/anaconda3/env/ # If you installed anaconda in another directory the permission problem is not likely an issue for you.
 ls -ll # You should see that you don't have the write permission.
 sudo chmod 777 -R ./* # Grants read, write, execute permission to all users.
 ls -ll # Now you should have all three permissions.
 ```
 
-#### Step 2. Install tensorflow with anaconda (you should know how to do that by now).
+#### Step 2. Install some additional packages with anaconda (you should know how to do that by now).
 ```
-conda install -c anaconda tensorflow
+conda activate BMEN4460
+conda install -c anaconda tensorflow pandas seaborn
+```
+
+#### Step 3. Refresh the jupyter kernel (we didn't believe this is necessary but it seems it is).
+```
+python -m ipykernel install --user --name BMEN4460 --display-name "Python3.7 BMEN4460"
 ```
 
 ### Acknowledgements
