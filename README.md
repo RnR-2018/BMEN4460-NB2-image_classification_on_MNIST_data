@@ -27,7 +27,7 @@ You shall then see the following hierarchy of files and folders, hopefully, whic
 BMEN4460-NB2-image_classification_on_MNIST_data
     ├── BMEN4460-NB2-image_classification_on_MNIST_data.ipynb
     └── data
-        └── MNIST_CNN.PNG
+        └── MNIST_CNN.png
 ```
 
 ## DEBUG
@@ -78,4 +78,4 @@ Run the jupyter lab block that gives you the error again and it should be fine n
 This notebook is largely inspired by and adapted from [this GitHub repository](https://github.com/jkotra/mnist-pytorch). The network architecture used in the tutorial comes from [this GitHub repository](https://github.com/floydhub/mnist).
 
 ### The CNN model implemented in this tutorial (again, the idea comes from [here](https://github.com/floydhub/mnist)).
-<img src="/data/MNIST_CNN.PNG" width="1000px">
+<img src="/data/MNIST_CNN.png" width="1000px">
