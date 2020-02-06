@@ -30,6 +30,9 @@ BMEN4460-NB2-image_classification_on_MNIST_data
 ```
 
 ## DEBUG
+
+### Known Issue 1. Jupyter Lab: "No module named ..."
+
 If you followed the instructions given in the parent repository and used the Deep Learning VM quick creation routine, you might encounter an error when you try to run the commands in the jupyter notebook. It will probably say that you have not installed tensorflow (which we will use to download the MNIST dataset in this tutorial). What you will need to do is typing the following instructions in a new GCP VM SSH Terminal (you can keep the one that runs jupyter notebook as it is while opening a new SSH Terminal).
 
 #### Step 1. Grant yourself the write permission over the anaconda directory (only necessary if you have not done this before).
@@ -51,6 +54,14 @@ conda install -c anaconda tensorflow pandas seaborn
 ```
 python -m ipykernel install --user --name BMEN4460 --display-name "Python3.7 BMEN4460"
 ```
+
+### Known Issue 2. Jupyter Lab: "Do not have permission to save model parameters" (something like that).
+You know how to do this, right? In a new SSH Terminal (as long as not the one that keeps your jupyter lab running), type:
+```
+cd /home/[username]/Projects
+sudo chmod 777 -R ./*
+```
+Run the jupyter lab block that gives you the error again and it should be fine now.
 
 ### Acknowledgements
 This notebook is largely inspired by and adapted from [this GitHub repository](https://github.com/jkotra/mnist-pytorch). The network architecture used in the tutorial comes from [this GitHub repository](https://github.com/floydhub/mnist).
