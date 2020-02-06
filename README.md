@@ -24,6 +24,7 @@ BMEN4460-NB2-image_classification_on_MNIST_data
         └── MNIST_CNN.PNG
 ```
 
+### Acknowledgements
 This notebook is largely inspired by and adapted from [this GitHub repository](https://github.com/jkotra/mnist-pytorch). The network architecture used in the tutorial comes from [this GitHub repository](https://github.com/floydhub/mnist).
 
 ### The CNN model implemented in this tutorial (again, the idea comes from [here](https://github.com/floydhub/mnist)).
