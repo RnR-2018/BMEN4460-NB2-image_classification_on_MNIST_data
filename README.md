@@ -75,7 +75,7 @@ Run the jupyter lab block that gives you the error again and it should be fine n
 </details>
 
 ## Acknowledgements
-This notebook is largely inspired by and adapted from [this GitHub repository](https://github.com/jkotra/mnist-pytorch). The network architecture used in the tutorial comes from [this GitHub repository](https://github.com/floydhub/mnist).
+This notebook is largely inspired by and adapted from [this GitHub repository](https://github.com/jkotra/mnist-pytorch). The network architecture used in the tutorial comes from [this GitHub repository](https://github.com/floydhub/mnist). Please note that the layer dimensions are (highly likely) incorrect in the network architecture illustration given by the cited GitHub repository.
 
 ### The CNN model implemented in this tutorial (again, the idea comes from [here](https://github.com/floydhub/mnist)).
 <img src="/data/MNIST_CNN_architecture.png" width="1000px">
