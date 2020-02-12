@@ -8,6 +8,8 @@ This repository, [**Image Classification on MNIST Data**](https://github.com/RnR
 
 For students in BMEN4460 (or who follow the instructions Step00 through Step02 in the parent repository), please create a Projects folder (if you have not done yet) within your GCP VM and download this repository into that folder.
 
+The notebook with visualization is intended to tell you that the weights of the first layer of our network doesn't change much, because the MNIST dataset is quite easy. However, the visualization method is useful, and you might use it one day in your own deep learning research.
+
 On the GCP VM Terminal:
 ```
 cd /home/[username]/
@@ -27,6 +29,7 @@ You shall then see the following hierarchy of files and folders, hopefully, whic
 ```
 BMEN4460-NB2-image_classification_on_MNIST_data
     ├── BMEN4460-NB2-image_classification_on_MNIST_data.ipynb
+    ├── BMEN4460-NB2-image_classification_on_MNIST_data_with_visualization.ipynb
     └── data
         └── MNIST_CNN.png
 ```
