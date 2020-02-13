@@ -8,7 +8,10 @@ This repository, [**Image Classification on MNIST Data**](https://github.com/RnR
 
 For students in BMEN4460 (or who follow the instructions Step00 through Step02 in the parent repository), please create a Projects folder (if you have not done yet) within your GCP VM and download this repository into that folder.
 
-The notebook with visualization is intended to tell you that the weights of the first layer of our network doesn't change much, because the MNIST dataset is quite easy. However, the visualization method is useful, and you might use it one day in your own deep learning research.
+The notebook [BMEN4460-NB2-image_classification_on_MNIST_data.ipynb](https://github.com/RnR-2018/BMEN4460-NB2-image_classification_on_MNIST_data/blob/master/BMEN4460-NB2-image_classification_on_MNIST_data.ipynb) walks you through the process of building a convolutional neural network (CNN) to classify the handwritten digits.
+
+The notebook with visualization [BMEN4460-NB2-image_classification_on_MNIST_data_with_visualization.ipynb
+](https://github.com/RnR-2018/BMEN4460-NB2-image_classification_on_MNIST_data/blob/master/BMEN4460-NB2-image_classification_on_MNIST_data_with_visualization.ipynb) intends to visualize how the convolutional kernels/filters evolve over the training process. In our specific case, it seems that these kernels in the first convolutional layer changed minimally throughout the process. Well, don't feel disappointed yet, as there are a lot more you can explore beyond this point. First of all, it is possible that the kernels in deeper layers evolve more drastically over the epochs, which you can check whether it is true or not yourself. Besides, even if this is not the case, at least you get to know this visualization method which you might find useful some day in your own deep learning research.
 
 On the GCP VM Terminal:
 ```
