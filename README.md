@@ -66,6 +66,8 @@ conda install -c anaconda tensorflow pandas seaborn
 python -m ipykernel install --user --name BMEN4460 --display-name "Python3.7 BMEN4460"
 ```
 
+#### Step 4. Make sure that you selected the correct jupyter kernel when you are using the jupyter lab.
+
 </details>
 
 <details>
